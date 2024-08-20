@@ -1,0 +1,565 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* Prevent horizontal overflow */
+}
+
+.title {
+    background-color: rgb(44, 44, 202);
+    padding: 5% 5%;
+
+}
+
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: "Kanit";
+
+
+
+}
+
+
+
+.navbar-nav {
+    padding-right: 100px;
+}
+
+.nav-item {
+    font-size: 20px;
+
+    font-weight: bold;
+
+}
+
+.nav-link {
+    margin-left: 20px;
+    color: white;
+}
+
+
+
+.title-image {
+    width: 100%;
+
+
+}
+
+.main-head {
+    color: rgb(252, 252, 252);
+    font-family: "Montserrat";
+    font-size: 3.0rem;
+    line-height: 1.5;
+    margin-right: 0px;
+    padding-top: 80px;
+
+
+
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.5;
+
+
+}
+
+.para {
+    font-size: 25px;
+
+}
+
+.register {
+
+    color: black;
+    font-size: 30px;
+    margin: 30px 0px;
+    padding: 10px 0px;
+}
+
+.signin {
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(176, 170, 170);
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.15);
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+    padding: 5px 6px;
+
+
+}
+
+
+
+.btn {
+    font-size: 23px;
+    border-radius: 5px;
+
+}
+
+label {
+    color: white;
+    font-size: 20px
+}
+
+.head2 {
+    font-family: Montserrat;
+    font-size: 47px;
+    margin-top: 2px;
+}
+
+
+.sec-2 {
+    padding: 60px 150px;
+}
+
+.sec-2 h2 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 40px;
+    padding: 20px 60px 20px 0px;
+}
+
+.sec-2 p {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 60px 0px 0px;
+
+}
+
+.black {
+    background-color: rgb(26, 24, 24);
+
+}
+
+.sec-2-btn {
+    margin: 0px 60px 0px 0px;
+
+    border-radius: 30px;
+    font-family: "Ubuntu";
+    padding: 15px 27px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.subinfo {
+    color: white;
+    padding: 60px 100px 60px 100px;
+
+}
+
+.subinfo3 {
+    font-size: 20px;
+    color: white;
+    padding: 60px 150px;
+
+}
+
+.curr {
+    padding: 30px 10px
+}
+
+.imagebit {
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+.subinfo2 {
+    padding-top: 50px;
+    font-family: "Montserrat";
+}
+
+.part {
+    background-color: rgb(26, 24, 24);
+    color: white;
+    padding: 30px 150px;
+    overflow: hidden;
+}
+
+
+
+.learn {
+    border-radius: 30px;
+    font-family: "Ubuntu";
+    padding: 12px 22px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.phone {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.phone2 {
+    padding: 3% 10%;
+    background-color: white
+}
+
+.stats {
+    height: 750px;
+    margin-top: 100px;
+    padding: 3% 12%;
+    margin-bottom: 30px;
+}
+
+
+.icon-info {
+
+    font-weight: 700;
+    font-size: 28px;
+    text-align: left;
+
+}
+
+.icon {
+    margin-bottom: 6px;
+
+}
+
+.icon-name {
+    margin-top: 250px;
+    justify-content: left;
+}
+
+.container .icon-name {
+    font-size: 25px;
+    font-weight: 550;
+    font-family: Arial;
+    padding-top: 200px;
+
+
+}
+
+.subinfo4 {
+    font-weight: normal;
+    font-size: 25px;
+    padding-right: 70px;
+
+}
+
+.but-p {
+    border-radius: 30px;
+    font-family: "Ubuntu";
+    font-size: 20px;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+
+.part2 {
+    color: white;
+
+
+}
+
+.sub-color {
+    background-color: rgb(44, 44, 202);
+}
+
+.sub-p {
+    color: rgb(73, 72, 72);
+    font-size: 22px;
+
+}
+
+.car-b {
+    margin: 10px 80px;
+}
+
+.card {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+
+}
+
+.card-custom .icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-size: 15px;
+    color: rgb(73, 72, 72);
+    margin-left: 0px;
+    padding-right: 45px;
+}
+
+.card-title {
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: "Montserrat";
+    margin-left: 0px;
+    padding-right:
+
+}
+
+
+
+.img-fluid {
+    width: 30%;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+
+.card-custom2 {
+
+    margin-right: 20px;
+
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.card-custom-img {
+    border-radius: 10px;
+}
+
+.card-title-custom2 {
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: "Montserrat";
+    margin-left: 0px;
+    font-weight: 600;
+
+}
+
+.card-text-custom2 {
+    font-size: 15px;
+    color: rgb(73, 72, 72);
+    margin-left: 0px;
+    padding-right: 45px;
+}
+
+
+
+
+.card-custom-img3 {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.people {
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+
+}
+
+.sub-head {
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.car-b {
+    margin: 15px 20px;
+    border-radius: 30px;
+    font-family: "Ubuntu";
+    padding: 15px 27px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.free {
+    padding: 100px 0px;
+    ;
+}
+
+
+
+@media (max-width:1028px) {
+    .navbar-brand {
+        font-size: 2rem;
+    }
+
+    .signin {
+        height: 40px;
+        font-size: 17px;
+        padding: 5px 6px;
+
+    }
+
+    .btn {
+        font-size: 18px;
+        margin-top: 1px;
+        border-radius: 7px;
+    }
+
+
+    .main-head {
+        font-size: 20px;
+
+        padding: 10px 5px 0px 20px;
+
+
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .para {
+        font-size: 20px;
+
+    }
+
+    label {
+        text-align: start;
+    }
+
+    .register {
+        margin: 0px;
+        padding: 0px
+    }
+
+    .subinfo {
+
+        padding: 45px 100px 45px 50px;
+    }
+
+    .subinfo2 {
+        padding-top: 0px
+    }
+
+    .sec-2 {
+        padding: 35px 10%;
+    }
+
+    .sec-2 h2 {
+        font-size: 30px;
+        padding: 20px 0px;
+    }
+
+    .sec-2 p {
+        font-size: 25px;
+    }
+
+    .sec-2-btn {
+        border-radius: 30px;
+        font-size: 15px;
+    }
+
+    .imagebit {
+        display: none;
+    }
+
+
+    .phone2 {
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stats {
+
+        height: 500px;
+        margin: 20px 0px 10px 0px;
+        padding: 0px 50px 0px 50px;
+
+
+    }
+
+    .icon-name {
+        margin: 0px;
+        padding: 10% 10% 10% 10%;
+
+    }
+
+    .icon-info {
+        font-size: 20px;
+        margin-left: 5px;
+        font-weight: 600;
+    }
+
+    .head2 {
+        font-size: 30px;
+        padding: 10px 0px 0px 0px;
+
+    }
+
+    .subinfo4 {
+        font-size: 15px;
+        ;
+    }
+
+    .but-p {
+        font-size: 15px;
+        padding: 6px 10px;
+        margin-top: 5px;
+
+    }
+
+    .crd {
+        justify-self: center;
+    }
+
+    .card-title {
+        margin-top: 10px;
+        font-size: 23px
+    }
+
+    .card-title-custom2 {
+        margin-top: 20px;
+    }
+
+    .card-text-custom2 {
+        margin-top: 0px;
+    }
+
+    .car-b {
+        font-size: 15px;
+        padding: 10px 12px;
+        margin: 10px 1px;
+        border-radius: 30px;
+        ;
+    }
+
+    .sub-head {
+        font-size: 27px;
+    }
+
+    .trust {
+        padding: 10px 5% 0px 5%;
+    }
+
+
+    .free {
+        padding-top: 0px;
+    }
+
+    .text {
+        padding-left: 40px;
+
+    }
+
+    .learn {
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+
+    .sub-p {
+        margin-bottom: 0px;
+    }
+}
